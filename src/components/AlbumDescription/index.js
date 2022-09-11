@@ -1,5 +1,5 @@
 const AlbumDescription = () => {
-  return <div>fasd fasdf </div>;
+  return <div></div>;
 };
 
 export default AlbumDescription;
