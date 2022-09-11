@@ -2,4 +2,4 @@
 
 # ISpotify
 
-> Projeto para treino do trainee da iJunior - Frontend/React
+> Projeto para treino do trainee da iJunior - Frontend/React.
