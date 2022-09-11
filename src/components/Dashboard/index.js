@@ -1,4 +1,5 @@
 import AlbumDescription from "../AlbumDescription";
+import "./style.css";
 
 const Dashboard = () => {
   return (
