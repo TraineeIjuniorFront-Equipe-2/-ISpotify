@@ -1,0 +1,31 @@
+.Containner {
+  display: flex;
+  align-items: center;
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.play {
+  width: 65px;
+  height: 65px;
+  margin-right: 1.5%;
+}
+
+.heart {
+  width: 44px;
+  height: 52px;
+  margin-right: 1.5%;
+}
+
+.install {
+  width: 36px;
+  height: 36px;
+  margin-right: 1.5%;
+}
+
+.moreOptions {
+  width: 45px;
+  height: 45px;
+  margin-right: 1.5%;
+}
