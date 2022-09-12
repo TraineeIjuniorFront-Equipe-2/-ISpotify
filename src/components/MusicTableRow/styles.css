@@ -1,0 +1,32 @@
+.music-table-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+}
+
+.music-table-row .music-table-row-content {
+  display: grid;
+  grid-template-columns: var(--table-grid);
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.music-table-row-content button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.music-table-row-btns img {
+  width: 22px;
+  height: 22px;
+}
+
+.music-table-row-content .music-table-row-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}

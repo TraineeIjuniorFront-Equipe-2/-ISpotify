@@ -12,10 +12,11 @@
 .App .navbar {
   grid-area: nav;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
   .App {
-    grid-template-areas:
-      "nav"
-      " main";
+    grid-template-areas: "nav" "main";
+    grid-template-rows: 90px 1fr;
+    grid-template-columns: 1fr;
   }
 }

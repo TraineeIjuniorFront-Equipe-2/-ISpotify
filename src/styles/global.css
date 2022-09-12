@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -16,6 +16,8 @@
     #000000 80.84%
   );
   --green-primary: #3fe168;
+  --table-grid: 4fr 2fr 1fr;
+  --table-header: #d9d9d9;
 }
 
 html,
@@ -23,7 +25,7 @@ body,
 #root {
   min-height: 100vh;
   overflow: hidden;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   background: var(--background-color);
 }
