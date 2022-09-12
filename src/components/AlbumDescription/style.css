@@ -1,0 +1,23 @@
+.containner {
+  display: flex;
+  align-items: center;
+  margin-left: 6%;
+  margin-top: 6%;
+}
+.capa {
+  width: 224px;
+  height: 224px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+}
+.Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 4%;
+  margin-top: 2%;
+
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
