@@ -1,5 +1,7 @@
 .table{
+  width: 86%;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+  margin-left: 6%;
   filter: opacity(90%);
 }
 .table header {
