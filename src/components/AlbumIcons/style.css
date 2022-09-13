@@ -12,16 +12,20 @@
   margin-right: 1.5%;
 }
 
+.heart button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .heart {
-  width: 44px;
-  height: 52px;
   margin-right: 1.5%;
 }
 
 .install {
   width: 36px;
   height: 36px;
-  margin-right: 1.5%;
+  margin-right: 2.5%;
 }
 
 .moreOptions {
