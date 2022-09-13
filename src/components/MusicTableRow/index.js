@@ -23,13 +23,14 @@ const MusicTableRow = ({ index, name, artist, album, onDelete }) => {
         </div>
         <div className="music-table-row-btns">
           <button
+            Title="Gostei!"
             onClick={() => {
               setIsLiked(!isLiked);
             }}
           >
             <HeartFilled isFilled={isLiked} />
           </button>
-          <button onClick={onDelete}>
+          <button Title="Apagar música" onClick={onDelete}>
             <img src={trash} alt="" />
           </button>
         </div>
