@@ -7,6 +7,20 @@
 }
 
 .ispotify {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .ispotify {
+    margin-bottom: 40px;
+  }
 }
