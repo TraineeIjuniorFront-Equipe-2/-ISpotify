@@ -24,6 +24,16 @@
   cursor: pointer;
 }
 
+.music-table-row-btns img:hover{
+  width: 24px;
+  height: 24px;
+}
+
+.music-table-row-btns svg:hover{
+  width: 36px;
+  height: 36px;  
+}
+
 .music-table-row-btns img {
   width: 22px;
   height: 22px;
