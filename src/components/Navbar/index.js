@@ -4,7 +4,13 @@ import "./style.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={ispotify} className="ispotify" alt="ispotify" />
+      <img
+        href="./Index.html"
+        Title="iSpotify®"
+        src={ispotify}
+        className="ispotify"
+        alt="ispotify"
+      />
     </div>
   );
 };
