@@ -22,7 +22,8 @@
   .navbar {
     display: flex;
     align-items: flex-start;
-    margin-left: 5%;
+    justify-content: center;
+    
     margin-top: 2%;
     margin-bottom: 5%;
   }
@@ -31,5 +32,6 @@
   }
   .logoName{
   margin-top: 20px;
+  text-align: center;
 }
 }
