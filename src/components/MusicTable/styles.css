@@ -1,9 +1,9 @@
-.table{
-  width: 86%;
+.table {
+  width: 100%;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
-  margin-left: 6%;
   filter: opacity(90%);
 }
+
 .table header {
   display: grid;
   grid-template-columns: var(--table-grid);
@@ -23,5 +23,4 @@
   padding: 24px 12px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }

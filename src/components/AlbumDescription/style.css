@@ -1,8 +1,6 @@
 .containner {
   display: flex;
   align-items: center;
-  margin-left: 6%;
-  margin-top: 6%;
 }
 .capa {
   width: 224px;
@@ -21,11 +19,17 @@
 
   text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
 }
-p {
+
+.Description h1 {
+  font-size: 3rem;
+}
+
+.Description span {
   display: flex;
   flex-direction: row;
 }
-p #hidden {
+
+.Description #hidden {
   margin-left: 10px;
   color: rgba(255, 255, 255, 0.4);
 }
@@ -37,12 +41,25 @@ p #hidden {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 
     cursor: pointer;
+    align-self: flex-start;
   }
-  p{
+
+  .containner {
+    flex-direction: column;
+  }
+
+  .Description {
+    margin-left: 0;
+  }
+
+  .Description span {
     display: block;
   }
-  p #hidden {
+  .Description #hidden {
     margin-left: 0px;
     color: rgba(255, 255, 255, 0.4);
+  }
+  .Description h1 {
+    font-size: 2.5rem;
   }
 }

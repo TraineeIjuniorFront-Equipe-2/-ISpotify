@@ -4,12 +4,18 @@ import AlbumIcons from "../AlbumIcons";
 
 import "./style.css";
 
+import { musicData } from "./data";
+
 const Dashboard = () => {
   return (
     <main className="dashboard">
-      <AlbumDescription />
-      <AlbumIcons />
-      <MusicTable />
+      <section>
+        <AlbumDescription />
+        <div className="album-icons">
+          <AlbumIcons />
+        </div>
+        <MusicTable musicData={musicData} />
+      </section>
     </main>
   );
 };

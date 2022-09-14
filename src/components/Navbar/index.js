@@ -3,16 +3,12 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <img
-        href="./Index.html"
-        Title="iSpotify®"
-        src={ispotify}
-        className="ispotify"
-        alt="ispotify"
-      />
-      <h1 className="logoName">iSpotify®</h1>
-    </div>
+    <nav className="navbar">
+      <header>
+        <img src={ispotify} className="ispotify" alt="ispotify" />
+        <h1 className="logoName">iSpotify®</h1>
+      </header>
+    </nav>
   );
 };
 

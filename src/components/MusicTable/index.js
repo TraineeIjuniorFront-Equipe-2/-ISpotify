@@ -2,10 +2,9 @@ import { useState } from "react";
 import clock from "../../assets/icons/clock.svg";
 import MusicTableRow from "../MusicTableRow";
 
-import { musicData } from "./data";
 import "./styles.css";
 
-const MusicTable = () => {
+const MusicTable = ({ musicData, ...props }) => {
   const [musicList, setMusicList] = useState(musicData);
 
   const handleDeleteMusic = (id) => {
@@ -13,7 +12,7 @@ const MusicTable = () => {
   };
 
   return (
-    <div className="table">
+    <div className="table" {...props}>
       <header>
         <div>
           <span>#TÍTULO</span>

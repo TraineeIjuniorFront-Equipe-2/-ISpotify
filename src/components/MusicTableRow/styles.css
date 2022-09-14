@@ -12,10 +12,12 @@
   width: 100%;
   font-size: 1rem;
   font-weight: 400;
+  padding: 8px 12px;
+  border-radius: 8px;
 }
 
-.music-table-row-content:hover{
-  background-color: rgba(255, 255, 255, 0.028);
+.music-table-row-content:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .music-table-row-content button {
@@ -24,14 +26,9 @@
   cursor: pointer;
 }
 
-.music-table-row-btns img:hover{
-  width: 24px;
-  height: 24px;
-}
-
-.music-table-row-btns svg:hover{
-  width: 36px;
-  height: 36px;  
+.music-table-row-btns img:hover,
+.music-table-row-btns svg:hover {
+  opacity: 0.7;
 }
 
 .music-table-row-btns img {

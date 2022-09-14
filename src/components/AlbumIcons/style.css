@@ -1,9 +1,6 @@
 .Containner {
   display: flex;
   align-items: center;
-  margin-left: 6%;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 .play {
@@ -37,7 +34,10 @@
   cursor: pointer;
 }
 
-.play:hover, .heart:hover, .moreOptions:hover, .install:hover{
+.play:hover,
+.heart:hover,
+.moreOptions:hover,
+.install:hover {
   filter: opacity(50%);
 }
 
@@ -47,7 +47,7 @@
     height: 40px;
   }
 
-  .heart svg{
+  .heart svg {
     width: 50px;
     height: 40px;
   }
