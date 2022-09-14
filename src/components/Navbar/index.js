@@ -11,6 +11,7 @@ const Navbar = () => {
         className="ispotify"
         alt="ispotify"
       />
+      <h1 className="logoName">iSpotify®</h1>
     </div>
   );
 };
